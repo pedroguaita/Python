@@ -30,7 +30,7 @@ mil = numero // 1000 % 10
 print(f'Unidade: {uni}\nDezena: {dez}\nCentena: {cen}\nMilhar:{mil}')
 
 #ex03
-
+#verificando as primeiras letras de um nome
 cidade = str(input('Em que cidade você nasceu? ')).strip()
 print(cidade.capitalize()[:5] == 'Santo')
 
