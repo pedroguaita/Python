@@ -41,6 +41,10 @@ print(frase[:5])        # 'Curso' → do início (índice 0) até o índice 4.
 print(frase[15:])       # 'Python' → do índice 15 até o final da string.
 print(frase[9::3])      # 'VdPh' → do 9 até o final, pulando de 3 em 3.
 
+#inverter string
+var = 'Olá mundo'
+print(0:9:-1)
+
 # Análise
 print(len(frase))                     # 21 → retorna o comprimento da string.
 print(frase.count('o'))               # 3  → conta quantas vezes aparece a letra 'o' (minúscula).
@@ -88,3 +92,4 @@ print(dividido[0][1])            # u → segunda letra da primeira palavra
 
 # Junção
 print('-'.join(frase))  # Junta todos os caracteres da string, colocando '-' entre eles → 'C-u-r-s-o- -e-m- -V-i-d-e-o- -P-y-t-h-o-n'
+
